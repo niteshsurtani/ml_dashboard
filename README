@@ -1,0 +1,27 @@
+This project included various classification, regression and clustering algorithms from scikit-learn.
+Each algorithm is defined in a different script and is called by the corresponding function with 
+PARAMS = ['inputfile', 'outputfile', 'model_params']
+
+DIRECTORY STRUCTURE
+
+- MODELS
+- DATASETS
+- UTILITIES
+
+- Classification
+	- Algorithm.py
+- Regression
+- Clustering
+
+
+INSTALLATION
+============
+
+1. Numpy and Scipy
+NumPy (>= 1.6.1)
+SciPy (>= 0.9)
+
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+
+2. Scikit-Learn
+pip install -U scikit-learn
